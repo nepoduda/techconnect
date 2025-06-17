@@ -18,8 +18,14 @@
             font-family: "poppins", sans-serif;
         }
 
+        
+        .botao{
+            border: 1px; color: solid black;
+            margin-right: 1rem;
+        }
+
         nav.navbar {
-            background: rgb(236, 236, 236);
+            background: white;
             font-family: Calibri, sans-serif;
             padding: 5px 15px;
             color: white;
@@ -37,7 +43,7 @@
         .logo {
             font-size: 28px;
             font-weight: bold;
-            color: rgb(230, 230, 230);
+            color: white;
             transition: 0.3s;}
 
         .navdiv ul {
@@ -82,12 +88,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/TechConnect.event.ico.ico" type="image/x-icon">
 </head>
-
 <body>
     <nav class="navbar">
         <div class="navdiv">
             <div class="logo"><a href="#" style="color: #131212;">Tech Future Summit</a> 
                 <span style="color: #131212;">|</span>
+                
             </div>
             <ul>
                 <li><a href="#Home">Home</a></li>
@@ -95,6 +101,8 @@
                 <li><a href="#palestrantes">Palestrantes</a></li>
                 <li><a href="#inscrição">Inscrição</a></li>
             </ul>
+            <div class="botao">
+            <button id="toggle-mode">Modo Escuro</button>
         </div>
     </nav>
 <!-- Conteúdo Principal -->
@@ -232,5 +240,6 @@
             </div>
         </div>
     </form>
+    <script src="script.js"></script>
 </body>
 </html>
